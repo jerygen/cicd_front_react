@@ -41,7 +41,7 @@ const Detail =()=>{
   //에러 출력 함수
   const errFun = (err) => {
     if (err.response.status === 403) {
-      alert("로그인하고 이용해주세요.");
+      alert("로그인하고 이용해주세요.~~");
     } else {
       let errMessage = "오류 = " + err.response.data.type + "\n";
       errMessage += err.response.data.title + "\n";
